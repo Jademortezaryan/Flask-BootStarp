@@ -1,0 +1,35 @@
+body {
+  background-color: #333333;
+}
+
+.container {
+  background-color: #333333;
+}
+
+.col {
+  display: table-row;
+  padding: 10px;
+}
+
+#param1 {
+  display: table-row;
+}
+
+#param2 {
+  display: table;
+}
+
+#param1 {
+  align-self: self-end;
+}
+
+#param2 {
+  align-self: self-end;
+}
+
+img {
+  /*width: 300px;*/
+  /*height: 300px;*/
+  /*object-fit: contain;*/
+}
+

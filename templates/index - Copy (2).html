@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Project1</title>
+    <link rel="stylesheet" href="static/assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="static/assets/css/styles.css">
+</head>
+
+<body style="background-color:#333333">
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+        <div class="container"><a class="navbar-brand text-white" href="#">Calculator</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">First Function</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Second Function</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Third Function</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">Dropdown </a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Side Function</a><a class="dropdown-item" href="#">Second Side Function</a><a class="dropdown-item" href="#">Third Side Function</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" style="padding: 10px;"><label class="text-white d-flex justify-content-center">Parameter Settings:</label></div>
+    <div class="row row-cols-1 text-left" style="padding: 10px;">
+	<form action="sendParameter" method="post" enctype = "multipart/form-data" class="container d-flex justify-content-center">
+		<div class="col offset-lg-0">
+            <div class="container d-flex justify-content-center" style="padding: 10px;"><label class="text-white">Param1:&nbsp; &nbsp;</label><input class="border rounded-pill" type="text" id="paramfi" name="paramf" value="1.0" style="text-align: center;"></div>
+            <div class="container d-flex justify-content-center" style="padding: 10px;"><label class="text-white">Param2:&nbsp; &nbsp;</label><input class="border rounded-pill" type="text" id="paramse" name="params" value="2.0" style="text-align: center;"></div>
+			 <div class="container"><label class="text-white d-flex justify-content-center">File Chooser:</label></div>
+			<div class="container d-flex justify-content-center" style="padding: 10px;"><label class="text-white">File1</label><input class="bg-white border rounded-pill border-white d-flex justify-content-center" type="file" id="filefi" name="filef"></div>
+			<div class="container d-flex justify-content-center" style="padding: 10px;"><button class="btn btn-primary" id="button1" name="button1" type="submit" value="upload" style="border-radius: 10px;">Go!</button></div>
+	    </div>
+	</form>
+        
+    </div>
+   
+    <div class="row">
+        <div class="col justify-content-center align-content-center">
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col justify-content-center align-content-center">
+            
+        </div>
+    </div>
+    <script src="static/assets/js/jquery.min.js"></script>
+    <script src="static/assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+</body>
+
+</html>
